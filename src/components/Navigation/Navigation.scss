@@ -1,0 +1,39 @@
+
+.root {
+  display: flex;
+    justify-content: space-around;
+  background: #2A2A2A;
+  color: #fff;
+  padding: 10px 20%;
+}
+
+.link {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 6px 13px;
+  -webkit-border-radius:2%;
+  -moz-border-radius:2%;
+  border-radius:2%;
+  text-decoration: none;
+  font-size: 1.125em; /* ~18px */
+  background: rgba(0, 0, 0, .15);
+}
+
+.link:hover
+{
+  background: rgba(0, 0, 0, .4);
+}
+
+
+.highlight {
+  border-radius: 3px;
+  color: #666;
+  background-color: #dbe129 !important;
+
+}
+
+.highlight:hover {
+  opacity: .9;
+}

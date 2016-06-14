@@ -1,0 +1,29 @@
+
+
+@import '../variables.scss';
+
+.root {
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: $max-content-width;
+  display: flex;
+    flex-direction: column;
+}
+
+.link {
+  width: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3px 6px;
+  color: rgba(0,0,0,.85);
+}
+
+.link:hover {
+  background-color: #dbe129;
+
+}
